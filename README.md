@@ -153,7 +153,7 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
 1. Acesse a pasta com os arquivos do frontend:
 
    ```sh
-   cd screen-cli
+   cd screenli-cli
    ```
 
 2. Instale os pacotes NPM:
@@ -181,7 +181,7 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
 1. Acesse o a pasta com os arquivos do backend:
 
    ```sh
-   cd screen-api
+   cd screenli-api
    ```
 
 2. Instale os NPM packages:
