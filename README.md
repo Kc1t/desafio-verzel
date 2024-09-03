@@ -50,13 +50,18 @@
 ## Sobre o Projeto
 
 <div id="sobre-o-projeto"></div>
+
 ![Landing Page](https://github.com/user-attachments/assets/46888375-035f-4ffb-b5b9-eeaf8cd49eca)
 
 Este projeto começou a ser desenvolvido no dia 28/08 a partir do recebimento das instruções do desafio da empresa Verzel, com um mapeamento inicial das necessidades do sistema, seguido pela criação do design no Figma e, finalmente, a implementação utilizando Node.js e Next.js. Embora fosse possível desenvolver todo o fullstack em Next.js, optei por usar um backend separado para demonstrar meu conhecimento em diferentes tecnologias.
 
 ### Hospedagem
 
-[Imagem Vercel]
+<div align="center">
+  
+![Readme - Domains](https://github.com/user-attachments/assets/bbe97b61-33e6-471b-b777-8e1fd5fbd4a6)
+
+</div>
 
 A Hospedagem do frontend desse projeto está sendo feita via [Vercel](https://vercel.com), está disponível nos domínios
 
@@ -113,7 +118,11 @@ Esta seção aponta as tecnologias utilizadas no desenvolvimento do sistema.
 
 A utilização do sistema é fácil e intuitiva. Você pode seguir o passo a passo para instalação e configuração local ou, se preferir, acessar o projeto diretamente na Vercel através dos links abaixo:
 
+- [screenli.kc1t.com](https://screenli.kc1t.com)
+- [screenli.vercel.app](https://screenli.vercel.app)
+
 <div id="pré-requisitos"></div>
+
 ### Pré-requisitos
 
 Para executar os códigos no seu sistema é necessário ter uma versão recente do Node, também é necessário possuir credenciais das APIs (Todas Gratuitas), mas para o projeto eu disponibilizo as chaves para teste.
@@ -161,9 +170,15 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
     NEXT_PUBLIC_TMDB_API=8c2c9e9ac0c08643681af82ebdfd06ab
    ```
 
+4. Execute o servidor:
+
+   ```bash
+   npm run dev
+   ```
+
 #### Backend
 
-1. Acesse o a pasta com os arquivos do frontend:
+1. Acesse o a pasta com os arquivos do backend:
 
    ```sh
    cd screen-api
@@ -177,10 +192,17 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
 
 3. Coloque as chaves de API dentro do arquivo `.env`
    (Chaves Disponíveis para Teste):
+
    ```js
     MONGO_URI = mongodb+srv://user:user123@cluster0.mgilw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
     JWT_SECRET=3Dqaf7g5*af6F6E!2g&4Ae7F!82F#7F6
     TMDB_API=8c2c9e9ac0c08643681af82ebdfd06ab
+   ```
+
+4. Execute o servidor:
+
+   ```bash
+   npm run dev
    ```
 
 > [!IMPORTANT]
@@ -197,6 +219,15 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
 Nesta seção você verá como usar o sistema através de vídeos e screenshots do sistema.
 
 Para ver mais sobre o sistema acesse: [Documentação Completa](https://example.com)
+
+<div align="center">
+
+![Listagem](https://github.com/user-attachments/assets/947ffa97-973e-4345-9726-e72fb48de647)
+![Infos do Filme](https://github.com/user-attachments/assets/0f790fb4-ea04-4a72-8a75-c9be345b7ae5)
+![Listas](https://github.com/user-attachments/assets/a2c2f4f5-5937-42e4-a927-4a8eb2d3fabf)
+![Lista](https://github.com/user-attachments/assets/5d988b00-64b1-47a1-910b-f2689502bca3)
+
+</div>
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
