@@ -51,7 +51,7 @@
 
 <div id="sobre-o-projeto"></div>
 
-![Landing Page](https://github.com/user-attachments/assets/46888375-035f-4ffb-b5b9-eeaf8cd49eca)
+![Header](https://github.com/user-attachments/assets/1b7ebfaa-0b0d-4865-be89-4a39956705e3)
 
 Este projeto começou a ser desenvolvido no dia 28/08 a partir do recebimento das instruções do desafio da empresa Verzel, com um mapeamento inicial das necessidades do sistema, seguido pela criação do design no Figma e, finalmente, a implementação utilizando Node.js e Next.js. Embora fosse possível desenvolver todo o fullstack em Next.js, optei por usar um backend separado para demonstrar meu conhecimento em diferentes tecnologias.
 
@@ -234,6 +234,12 @@ https://github.com/user-attachments/assets/8185b38b-9ede-456c-9314-eb71a6855e6d
 ![Lista](https://github.com/user-attachments/assets/5d988b00-64b1-47a1-910b-f2689502bca3)
 
 </div>
+
+Link para o Design:
+- [Design/Prototipagem](https://www.figma.com/design/xBa74zYVbqvcbneeWrxH6l/Desafio-Verzel?node-id=115-563&t=uE5qkUl7bSAUSKjK-1)
+
+![Uploading FigmaCover.png…]()
+
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
