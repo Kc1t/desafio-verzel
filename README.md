@@ -14,9 +14,9 @@
     <br />
     <a href="#sobre-o-projeto">Ver Documentação Completa</a>
     ·
-    <a href="https://github.com/kc1t/desafio-verzel/issues/new?labels=bug&template=bug-report---.md">Reportar Erro</a>
+    <a href="https://kc1t.com" target="_blank">Reportar Erro</a>
     ·
-    <a href="https://github.com/kc1t/desafio-verzel/issues/new?labels=enhancement&template=feature-request---.md">Solicitar Features</a>
+    <a href="https://kc1t.com" target="_blank">Solicitar Features</a>
   </p>
 </div>
 
@@ -219,6 +219,12 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
 Nesta seção você verá como usar o sistema através de vídeos e screenshots do sistema.
 
 Para ver mais sobre o sistema acesse: [Documentação Completa](https://example.com)
+
+
+
+
+https://github.com/user-attachments/assets/8185b38b-9ede-456c-9314-eb71a6855e6d
+
 
 <div align="center">
 
