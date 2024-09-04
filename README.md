@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/kc1t/desafio-verzel">
+  <a href="https://github.com/Kc1t/desafio-verzel">
     <img src="https://ik.imagekit.io/z3fr9lhps/Screenli/Logo.png?updatedAt=1725388235318" alt="Logo" width="280" height="80">
   </a>
 
@@ -70,7 +70,6 @@ A Hospedagem do frontend desse projeto está sendo feita via [Vercel](https://ve
 
 A Hospedagem da API está no [Render](https://render.com),
 
-
 <div id="funcionalidades"></div>
 
 ### Funcionalidades
@@ -100,7 +99,6 @@ Esta seção aponta as tecnologias utilizadas no desenvolvimento do sistema.
 - ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 - ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 - ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-
 
 **Backend:**
 
@@ -209,7 +207,7 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
    ```
 
 > [!IMPORTANT]
-> Essas chaves de API/ACESSO expirarão em 2 semanas, elas estão disponíveis para que os avaliadores da Verzel possam testar sem precisar ficar criando chaves.
+> Para conseguir as chaves do projeto, mandar mensagem no privado.
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
@@ -223,11 +221,7 @@ Nesta seção você verá como usar o sistema através de vídeos e screenshots 
 
 Para ver mais sobre o sistema acesse: [Documentação Completa](https://example.com)
 
-
-
-
 https://github.com/user-attachments/assets/8185b38b-9ede-456c-9314-eb71a6855e6d
-
 
 <div align="center">
 
@@ -239,10 +233,8 @@ https://github.com/user-attachments/assets/8185b38b-9ede-456c-9314-eb71a6855e6d
 </div>
 
 Link para o Design:
+
 - [Design/Prototipagem](https://www.figma.com/design/xBa74zYVbqvcbneeWrxH6l/Desafio-Verzel?node-id=115-563&t=uE5qkUl7bSAUSKjK-1)
-
-![Uploading FigmaCover.png…]()
-
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
@@ -275,9 +267,16 @@ Distribuído sob a licença MIT. Consulte `LICENSE.txt` para obter mais informa�
 
 <div id="contato"></div>
 
+<div align="center">
+  
+![verzel 1](https://github.com/user-attachments/assets/05d119ef-3f1e-4681-9f74-735d45b850a9)  &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/Kc1t/desafio-verzel"> 
+<img src="https://ik.imagekit.io/z3fr9lhps/Screenli/Logo.png?updatedAt=1725388235318" alt="Logo"  width="280" height="80">
+</a>
+</div>
+
 ## Contato
 
-Kauã Miguel - [@kc1t](https://kc1t.com) - Portfólio
+Kauã Miguel - [@kc1t](https://kc1t.com) - Portfólio - (11) 98468-1739
 
 Link do Projeto: [https://github.com/Kc1t/desafio-verzel](https://github.com/Kc1t/desafio-verzel)
 
