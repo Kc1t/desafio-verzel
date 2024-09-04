@@ -2,7 +2,7 @@
 
 // Modules
 import { useParams, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Link from "next/link";
 
@@ -30,6 +30,12 @@ const ListDetailsPage = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
+  const [isLoggedIn, setIsLoggedIn] = React.useState(false);
+
+  React.useEffect(() => {
+    const token = localStorage.getItem("token");
+    setIsLoggedIn(!!token);
+  }, []);
   const router = useRouter();
 
   const handleGoBack = () => {
@@ -107,7 +113,7 @@ const ListDetailsPage = () => {
     <div className="relative w-full min-h-screen flex flex-col items-center bg-background-dark text-white">
       <Navbar />
       <div
-        className="h-screen w-[100%] tv:max-h-[40%] tv:max-w-6xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute inset-0 object-cover"
+        className="h-full w-[100%] tv:max-h-[] tv:max-w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute inset-0 object-cover"
         style={{
           backgroundImage: backdropPath
             ? `url(https://image.tmdb.org/t/p/original${backdropPath})`
@@ -138,7 +144,7 @@ const ListDetailsPage = () => {
 
         <ShareLinkBtn />
       </div>
-      <div className="px-4 mx-auto w-[90%] lg:w-[65%] tv:max-w-5xl sm:px-6 lg:px-8 mt-24 z-20">
+      <div className="px-4 h-full mx-auto w-[90%] lg:w-[65%] tv:max-w-5xl sm:px-6 lg:px-8 mt-24 z-20">
         {movieDetails.length > 0 ? (
           <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 w-full">
             {movieDetails.map((movie: any) => (
@@ -150,14 +156,18 @@ const ListDetailsPage = () => {
                     alt={movie.title}
                   />
                 </Link>
-                <div className="absolute right-0 top-0 p-2 z-[9999]">
-                  <button
-                    onClick={() => handleRemoveMovie(movie.id)}
-                    className="flex z-20 items-center justify-center bg-sub-dark hover:border-white/60 transition-all ease-in-out duration-300 border-2 border-white/20 h-8 w-8 md:h-10 md:w-10 cursor-pointer rounded-full"
-                  >
-                    <TrashSvg />
-                  </button>
-                </div>
+                {isLoggedIn ? (
+                  <div className="absolute right-0 top-0 p-2 z-[9999]">
+                    <button
+                      onClick={() => handleRemoveMovie(movie.id)}
+                      className="flex z-20 items-center justify-center bg-sub-dark hover:border-white/60 transition-all ease-in-out duration-300 border-2 border-white/20 h-8 w-8 md:h-10 md:w-10 cursor-pointer rounded-full"
+                    >
+                      <TrashSvg />
+                    </button>
+                  </div>
+                ) : (
+                  <></>
+                )}
               </li>
             ))}
           </ul>

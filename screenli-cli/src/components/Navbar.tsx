@@ -11,11 +11,11 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 // Assets
 import Logo from "@/assets/assets/Logo.png";
-import { Menu } from "lucide-react";
+import { Github, Menu } from "lucide-react";
 
 const navItems = [
   { title: "Home", href: "/" },
-  { title: "Sobre", href: "/sobre" },
+  // { title: "Sobre", href: "/sobre" },
 ];
 
 export default function Navbar() {
@@ -66,10 +66,18 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center gap-2">
+          <a
+            href="https://github.com/Kc1t/desafio-verzel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="z-20 items-center justify-center bg-sub-dark hover:border-white/60 transition-all ease-in-out duration-300 border-2 border-white/20 h-11 w-11 md:h-10 md:w-10 cursor-pointer rounded-full hidden md:flex"
+          >
+            <Github className="text-white w-5 h-5" />
+          </a>
           {isLoggedIn ? (
             <Link href="/lists">
-              <Button className="hidden md:inline-flex px-6 rounded-xl bg-sub-dark text-white border-2 border-white/20">
+              <Button className="hidden md:inline-flex px-6 rounded-xl bg-sub-dark hover:border-white/60 transition-all ease-in-out duration-300 border-2 border-white/20 cursor-pointer">
                 Minhas Listas
               </Button>
             </Link>

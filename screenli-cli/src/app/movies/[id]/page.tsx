@@ -3,6 +3,8 @@
 // Modules
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
+import Image from "next/image";
+import Link from "next/link";
 
 // Services
 import { getMovieDetails, getRelatedMovies } from "@/services/movie";
@@ -16,6 +18,10 @@ import MovieCast from "@/components/movies/MovieCast";
 import MovieRelated from "@/components/movies/MovieRelated";
 import MovieAnnouncement from "@/components/movies/MovieAnnouncement";
 import Footer from "@/components/Footer";
+import { Button } from "@/components/ui/button";
+
+// Assets
+import Error from "@/assets/assets/404.png";
 
 export default function MovieDetailsPage() {
   const [movie, setMovie] = useState<any>(null);
@@ -50,7 +56,19 @@ export default function MovieDetailsPage() {
 
   if (loading) return <Loading />;
 
-  if (!movie) return <div>Movie not found</div>;
+  if (!movie)
+    return (
+      <div className="h-screen w-screen overflow-hidden flex flex-col items-center justify-center bg-background-dark">
+        <Link href="/" className="text-xl font-bold">
+          <Image src={Error} className="w-[14rem]" alt="Logo" />
+        </Link>
+        <Link href="/">
+          <Button className="hidden md:inline-flex px-6 rounded-xl bg-sub-dark text-white border-2 border-white/20">
+            Perdido? Voltar a Sala de Cinema!
+          </Button>
+        </Link>
+      </div>
+    );
 
   return (
     <div className="flex w-full min-h-screen flex-col items-center justify-between overflow-x-hidden bg-background-dark">

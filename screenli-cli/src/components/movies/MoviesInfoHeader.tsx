@@ -187,7 +187,7 @@ const MoviesInfoHeader: React.FC<MovieTitleProps> = ({
                 {!isLoggedIn ? (
                   <Link href="/login">
                     <Button  className="border-[3.5px] border-white/40 bg-sub-dark/50 font-semibold py-5 px-8 rounded-xl flex items-center gap-2 mt-4">
-                      Entrar para criar lista.
+                      Entrar para adicionar lista.
                     </Button>
                   </Link>
                 ) : (
