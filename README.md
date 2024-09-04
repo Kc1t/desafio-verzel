@@ -70,7 +70,6 @@ A Hospedagem do frontend desse projeto está sendo feita via [Vercel](https://ve
 
 A Hospedagem da API está no [Render](https://render.com),
 
-- [screenli-api.onrender.com](https://screenli-api.onrender.com)
 
 <div id="funcionalidades"></div>
 
@@ -102,11 +101,15 @@ Esta seção aponta as tecnologias utilizadas no desenvolvimento do sistema.
 - ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 - ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
+
 **Backend:**
 
 - ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 - ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 - ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**Rotas de API:**
+[Abra para ler a documentação das rotas da API](./API-ROUTES.md)
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
@@ -166,8 +169,8 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
    (Chaves Disponíveis para Teste):
 
    ```js
-    NEXT_PUBLIC_API_URL=http://localhost:5000
-    NEXT_PUBLIC_TMDB_API=8c2c9e9ac0c08643681af82ebdfd06ab
+    NEXT_PUBLIC_API_URL=
+    NEXT_PUBLIC_TMDB_API=
    ```
 
 4. Execute o servidor:
@@ -184,7 +187,7 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
    cd screenli-api
    ```
 
-2. Instale os NPM packages:
+2. Instale os pacotes NPM:
 
    ```sh
    npm install
@@ -194,9 +197,9 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
    (Chaves Disponíveis para Teste):
 
    ```js
-    MONGO_URI = mongodb+srv://user:user123@cluster0.mgilw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-    JWT_SECRET=3Dqaf7g5*af6F6E!2g&4Ae7F!82F#7F6
-    TMDB_API=8c2c9e9ac0c08643681af82ebdfd06ab
+    MONGO_URI =
+    JWT_SECRET=
+    TMDB_API=
    ```
 
 4. Execute o servidor:
