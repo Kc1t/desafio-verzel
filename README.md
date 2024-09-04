@@ -12,7 +12,7 @@
   <p align="center">
     Documentação para projeto do desafio da empresa Verzel.
     <br />
-    <a href="#sobre-o-projeto">Ver Documentação Completa</a>
+    <a href="https://ik.imagekit.io/z3fr9lhps/Screenli/ScreenLi.pdf?updatedAt=1725418505471" target="_blank">Ver Documentação Completa</a>
     ·
     <a href="https://kc1t.com" target="_blank">Reportar Erro</a>
     ·
@@ -109,6 +109,11 @@ Esta seção aponta as tecnologias utilizadas no desenvolvimento do sistema.
 **Rotas de API:**
 [Abra para ler a documentação das rotas da API](./API-ROUTES.md)
 
+**Banco de Dados:**
+O banco de dados utilizado no sistema é o MongoDB. A integração com o MongoDB é simples: você apenas precisa acessar o Atlas e gerenciar as credenciais para ambientes Node.js e inserir as chaves de segurança no arquivo `.env`. O backend cuida automaticamente do restante, criando a coleção de usuários e, posteriormente, as listas associadas a cada usuário.
+ex de chave: mongodb+srv://[usuário]:[senha]@[cluster]/[database]?retryWrites=true&w=majority&appName=[nome_do_cluster]
+[MongoDB](https://www.mongodb.com)
+
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -167,8 +172,8 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
    (Chaves Disponíveis para Teste):
 
    ```js
-    NEXT_PUBLIC_API_URL=
-    NEXT_PUBLIC_TMDB_API=
+    NEXT_PUBLIC_API_URL= https://sua-api:5000
+    NEXT_PUBLIC_TMDB_API= sua-chave-secreta
    ```
 
 4. Execute o servidor:
@@ -195,9 +200,9 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
    (Chaves Disponíveis para Teste):
 
    ```js
-    MONGO_URI =
-    JWT_SECRET=
-    TMDB_API=
+    MONGO_URI= mongodb+srv://[usuário]:[senha]@[cluster]/[database]?retryWrites=true&w=majority&appName=[nome_do_cluster]
+    JWT_SECRET= sua-chave-secreta
+    TMDB_API= sua-chave-secreta
    ```
 
 4. Execute o servidor:
@@ -219,7 +224,7 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
 
 Nesta seção você verá como usar o sistema através de vídeos e screenshots do sistema.
 
-Para ver mais sobre o sistema acesse: [Documentação Completa](https://example.com)
+Para ver mais sobre o sistema acesse: [Documentação](https://ik.imagekit.io/z3fr9lhps/Screenli/ScreenLi.pdf?updatedAt=1725418505471)
 
 https://github.com/user-attachments/assets/8185b38b-9ede-456c-9314-eb71a6855e6d
 
