@@ -93,6 +93,7 @@ A Hospedagem da API está no [Render](https://render.com),
 Esta seção aponta as tecnologias utilizadas no desenvolvimento do sistema.
 
 **Frontend:**
+[Abra para ler mais sobre o frontend e seu funcionamento](./Frontend.md)
 
 - ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -107,12 +108,17 @@ Esta seção aponta as tecnologias utilizadas no desenvolvimento do sistema.
 - ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 **Rotas de API:**
-[Abra para ler a documentação das rotas da API](./API-ROUTES.md)
+[Abra para ler a documentação das rotas da API](./Api-Routes.md)
 
 **Banco de Dados:**
-O banco de dados utilizado no sistema é o MongoDB. A integração com o MongoDB é simples: você apenas precisa acessar o Atlas e gerenciar as credenciais para ambientes Node.js e inserir as chaves de segurança no arquivo `.env`. O backend cuida automaticamente do restante, criando a coleção de usuários e, posteriormente, as listas associadas a cada usuário.
-ex de chave: mongodb+srv://[usuário]:[senha]@[cluster]/[database]?retryWrites=true&w=majority&appName=[nome_do_cluster]
-[MongoDB](https://www.mongodb.com)
+O banco de dados utilizado no sistema é o [MongoDB](https://www.mongodb.com)
+. A integração com o MongoDB é simples: você apenas precisa acessar o Atlas e gerenciar as credenciais para ambientes Node.js e inserir as chaves de segurança no arquivo `.env`. O backend cuida automaticamente do restante, criando a coleção de usuários e, posteriormente, as listas associadas a cada usuário.
+
+Exemplo:
+```js
+mongodb+srv://[usuário]:[senha]@[cluster]/[database]?retryWrites=true&w=majority&appName=[nome_do_cluster]
+```
+
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
@@ -226,6 +232,9 @@ Nesta seção você verá como usar o sistema através de vídeos e screenshots 
 
 Para ver mais sobre o sistema acesse: [Documentação](https://ik.imagekit.io/z3fr9lhps/Screenli/ScreenLi.pdf?updatedAt=1725418505471)
 
+**Vídeo**
+[Caso o vídeo não esteja disponível, aperte aqui!](./assets/Preview%20Screenli.mp4)
+
 https://github.com/user-attachments/assets/8185b38b-9ede-456c-9314-eb71a6855e6d
 
 <div align="center">
@@ -281,7 +290,7 @@ Distribuído sob a licença MIT. Consulte `LICENSE.txt` para obter mais informa�
 
 ## Contato
 
-Kauã Miguel - [@kc1t](https://kc1t.com) - Portfólio - (11) 98468-1739
+Kauã Miguel - [Portfólio](https://kc1t.com) - (11) 98468-1739
 
 Link do Projeto: [https://github.com/Kc1t/desafio-verzel](https://github.com/Kc1t/desafio-verzel)
 

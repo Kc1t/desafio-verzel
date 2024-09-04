@@ -204,3 +204,36 @@ Esta API fornece acesso a informações sobre filmes, permite a criação e gere
 - **Resposta**:
   - `200 OK`: Retorna uma mensagem de sucesso.
   - `401 Unauthorized`: Se o token de autenticação estiver ausente ou inválido.
+
+#### Estrutura:
+
+```bash
+   app.ts
+│   server.ts
+│
+├───config
+│       apiConfig.ts
+│       db.ts
+│
+├───controllers
+│       authController.ts
+│       listController.ts
+│       movieController.ts
+│
+├───middlewares
+│       authMiddleware.ts
+│
+├───models
+│       listModel.ts
+│       User.ts
+│
+├───routes
+│       authRoutes.ts
+│       listRoutes.ts
+│       movieRoutes.ts
+│
+└───services
+        authService.ts
+        listService.ts
+        movieService.ts
+```
