@@ -26,7 +26,7 @@ export default function SearchMovieCard({ movie }: MovieCardProps) {
               : "/ico.png"
           }
           alt={movie.title}
-          className="w-full min-h-[10rem] h-[10rem] max-h-[10rem] lg:min-h-[17rem] lg:h-[17rem] lg:max-h-[17rem] object-cover rounded-md"
+          className="w-full min-h-[10rem] h-[10rem] max-h-[10rem] lg:min-h-[17rem] lg:h-[17rem] lg:max-h-[17rem] object-cover rounded-md opacity-100 hover:opacity-[0.8] transition-all ease-in-out duration-300"
         />
         <h2 className="mt-2 text-md font-bold text-white">
           {truncateTitle(movie.title)}

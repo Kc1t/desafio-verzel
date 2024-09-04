@@ -146,7 +146,7 @@ const ListDetailsPage = () => {
                 <Link href={`/movies/${movie.id}`}>
                   <img
                     src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-                    className="w-full rounded-lg"
+                    className="w-full rounded-lg opacity-100 hover:opacity-[0.8] transition-all ease-in-out duration-300"
                     alt={movie.title}
                   />
                 </Link>

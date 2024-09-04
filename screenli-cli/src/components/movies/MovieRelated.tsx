@@ -40,7 +40,7 @@ const MovieRelated: React.FC<RelatedMoviesProps> = ({ movies }) => {
                     : "/ico.png"
                 }
                 alt={movie.title}
-                className="w-[14rem] min-w-[14rem] max-w-[14rem] h-[25rem] min-h-[25rem] max-h-[25rem] rounded-md object-cover"
+                className="w-[14rem] min-w-[14rem] max-w-[14rem] h-[25rem] min-h-[25rem] max-h-[25rem] rounded-md object-cover opacity-100 hover:opacity-[0.8] transition-all ease-in-out duration-300"
               />
               <div className="flex flex-col items-start w-full pb-6">
                 <p className="text-white mt-2 text-left">{movie.title}</p>

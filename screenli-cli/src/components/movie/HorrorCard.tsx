@@ -16,7 +16,7 @@ export default function HorrorCard({ movie }: MovieCardProps) {
         <img
           src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
           alt={movie.title}
-          className="h-[15rem] min-w-[10rem] min-h-[15rem] max-h-[15rem] rounded-md object-cover"
+          className="h-[15rem] min-w-[10rem] min-h-[15rem] max-h-[15rem] rounded-md object-cover opacity-100 hover:opacity-[0.8] transition-all ease-in-out duration-300"
         />
       </div>
     </Link>

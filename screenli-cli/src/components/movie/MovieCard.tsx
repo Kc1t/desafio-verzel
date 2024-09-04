@@ -24,7 +24,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
         <img
           src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
           alt={movie.title}
-          className="h-[25rem] w-full min-h-[25rem] max-h-[25rem] rounded-md object-cover"
+          className="h-[25rem] w-full min-h-[25rem] max-h-[25rem] rounded-md object-cover opacity-100 hover:opacity-[0.8] transition-all ease-in-out duration-300"
         />
         <div className="flex flex-col gap-2 items-start w-full pb-6">
           <p className="text-[#9CA3AF] text-xs pt-4">{formattedDate}</p>
