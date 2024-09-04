@@ -43,7 +43,7 @@ const Login = () => {
       try {
         await createList("Favoritos ⭐", "Sua lista padrão de favoritos");
         toast({
-          title: "🍿 Login Conclúido!",
+          title: "🍿 Login Concluído!",
         });
       } catch (error) {
         console.error("Erro ao criar lista:", error);
