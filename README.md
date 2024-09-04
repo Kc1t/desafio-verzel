@@ -70,6 +70,9 @@ A Hospedagem do frontend desse projeto está sendo feita via [Vercel](https://ve
 
 A Hospedagem da API está no [Render](https://render.com),
 
+> [!IMPORTANT]
+> Por se tratar de um serviço de hospedagem gratuito, a API pode enfrentar alguns problemas ocasionais. Se você acessar o link e ele não carregar corretamente, aguarde alguns instantes e tente atualizar a página.
+
 <div id="funcionalidades"></div>
 
 ### Funcionalidades
