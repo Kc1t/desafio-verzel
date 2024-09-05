@@ -9,6 +9,9 @@
 
   <h3 align="center">Desafio Técnico - Verzel</h3>
 
+> [!IMPORTANT]
+> Por se tratar de um serviço de hospedagem gratuito, a API pode enfrentar alguns problemas ocasionais. Se você acessar o link e ele não carregar corretamente, aguarde alguns instantes e tente atualizar a página.
+
   <p align="center">
     Documentação para projeto do desafio da empresa Verzel.
     <br />
@@ -157,10 +160,6 @@ Este repositório possui backend e frontend nele, para testar e instalar basta s
 2. Clone o repositório ou baixe manualmente:
    ```sh
    git clone https://github.com/kc1t/desafio-verzel.git
-   ```
-3. Instale os pacotes NPM:
-   ```sh
-   npm install
    ```
 
 #### Frontend
